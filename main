@@ -2,7 +2,7 @@ import requests, os, time
 os.system("clear")
 th='- - - - - - - - - - - - - - - - - - - - - - - - -'
 def ban():
- print(f'''\033[1;34m
+ print(f'''\033[1;35m
            _       __           
  _      __(_)___  / /____  _____
 | | /| / / / __ \/ __/ _ \/ ___/
@@ -28,7 +28,7 @@ time.sleep(0.2)
 
 
 os.system("clear")
-print('''\033[1;34m
+print('''\033[1;35m
            _       __           
  _      __(_)___  / /____  _____
 | | /| / / / __ \/ __/ _ \/ ___/
@@ -46,7 +46,7 @@ so2="2"
 so3="3"
 if(chon==so1):
       os.system("clear")
-      print('''\033[1;34m
+      print('''\033[1;35m
            _       __           
  _      __(_)___  / /____  _____
 | | /| / / / __ \/ __/ _ \/ ___/
@@ -61,7 +61,7 @@ if(chon==so2):
     exec(requests.get("https://raw.githubusercontent.com/LyHoangKhangDVL/Tool/main/gonhay").text)  
 if(chon==so3):
 	exec(requests.get("https://raw.githubusercontent.com/LyHoangKhangDVL/Tool/main/exit").text)
-print('''\033[1;34m
+print('''\033[1;35m
            _       __           
  _      __(_)___  / /____  _____
 | | /| / / / __ \/ __/ _ \/ ___/
@@ -86,7 +86,7 @@ while True:
     
 
 
-print('''\033[1;34m
+print('''\033[1;35m
            _       __           
  _      __(_)___  / /____  _____
 | | /| / / / __ \/ __/ _ \/ ___/
