@@ -9,7 +9,7 @@ from time import sleep,strftime
 import requests
 os.system("clear")
 dau="\033[1;31m[\033[1;37m×.×\033[1;31m] \033[1;37m➩"
-banner = f"""\033[1;34m
+banner = f"""\033[1;35m
            _       __           
  _      __(_)___  / /____  _____
 | | /| / / / __ \/ __/ _ \/ ___/
