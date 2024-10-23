@@ -601,13 +601,13 @@ for i in range(1):
 	print("Gõ Nhây",i+1)
 	time.sleep(delay)
 
-data = f"fb_dtsg={fb_dtsg}&jazoest={jazoest}&body={nd76}&send=Send&tids=cid.g.{id}&wwwupp=C3&platform_xmd=&referrer=&ctype=&cver=legacy&csid=366a74a7-2d30-45dd-94c2-ad47d662dcfb"
+data = f"fb_dtsg={fb_dtsg}&jazoest={jazoest}&body={nd77}&send=Send&tids=cid.g.{id}&wwwupp=C3&platform_xmd=&referrer=&ctype=&cver=legacy&csid=366a74a7-2d30-45dd-94c2-ad47d662dcfb"
 for i in range(1):
 	rq = requests.post("https://mbasic.facebook.com/messages/send/",params=params,headers=headers,data=data)
 	print("Gõ Nhây",i+1)
 	time.sleep(delay)
 
-data = f"fb_dtsg={fb_dtsg}&jazoest={jazoest}&body={nd77}&send=Send&tids=cid.g.{id}&wwwupp=C3&platform_xmd=&referrer=&ctype=&cver=legacy&csid=366a74a7-2d30-45dd-94c2-ad47d662dcfb"
+data = f"fb_dtsg={fb_dtsg}&jazoest={jazoest}&body={nd76}&send=Send&tids=cid.g.{id}&wwwupp=C3&platform_xmd=&referrer=&ctype=&cver=legacy&csid=366a74a7-2d30-45dd-94c2-ad47d662dcfb"
 for i in range(1):
 	rq = requests.post("https://mbasic.facebook.com/messages/send/",params=params,headers=headers,data=data)
 	print("Gõ Nhây",i+1)
